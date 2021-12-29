@@ -10,7 +10,7 @@ target_include_directories(${PROJECT_NAME} PUBLIC
 
 target_link_libraries(${PROJECT_NAME}
         pico_stdlib
-        tinyusb_device
+        tinyusb_host
         tinyusb_board
         )
 
