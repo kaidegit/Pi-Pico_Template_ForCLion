@@ -6,11 +6,8 @@
 
 #include "main.h"
 #include "pico/stdlib.h"
-#include "bsp/board.h"
 
 int main() {
-//    board_init();
-//    tusb_init();
     gpio_init(LED_PIN);
     gpio_set_dir(LED_PIN, GPIO_OUT);
     while (true) {
